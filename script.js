@@ -7,6 +7,9 @@ const resetBtn = document.getElementById("reset");
 
 function render() {
   countEl.textContent = count;
+  if (count == 1557){
+    alert("티~원");
+  }
 }
 
 incBtn.addEventListener("click", () => {
